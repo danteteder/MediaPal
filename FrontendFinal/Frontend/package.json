@@ -1,0 +1,11 @@
+{
+  "name": "platform-arhitecture",
+  "version": "1.0.0",
+  "description": "Epicprodux platform arhitecture",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robin Kolk",
+  "license": "ISC"
+}

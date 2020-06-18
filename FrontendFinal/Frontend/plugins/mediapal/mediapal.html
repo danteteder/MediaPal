@@ -1,0 +1,35 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mediapal</title>
+    <meta content='initial-scale=1,maximum-scale=1,user-scalable=no' name='viewport'/>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.23.0/mapbox-gl.css' rel='stylesheet'/>
+    <link href="../../../../Frontend2/plugins/mediapal/style.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="map"></div>
+
+<div class="search_box" id="search_box">
+    <input id="search_box_input" onchange="_searchChange(this)" onclick="_searchChange(this)" oninput="_searchChange(this)"
+           placeholder="What are you looking for?"
+           type="text">
+    <i class="fas fa-search"></i>
+</div>
+
+<div class="card" id="search_card">
+    <br>
+</div>
+
+<div class="card_window" id="card_window">
+    <br>
+</div>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js'></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="../../../../Frontend2/plugins/mediapal/mediapal.js"></script>
+
+
+</body>
+
+</html>

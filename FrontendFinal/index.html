@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>MediaPal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- MOBILE VIEW JAOKS -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="material-icons">&#xE5D2;</i>
+				</button>
+			</div>
+
+
+			<!-- mobile hamburgeri toggle-->
+			<div class="collapse navbar-collapse">
+
+				<ul class="nav navbar-nav ">
+					<li><a href="#mediapal">MediaPal</a></li>
+					<li><a href="#examples">Examples</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#documentation">Documentation</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- siia tuleb MediaPal logo -->
+					<h1>MediaPal</h1>
+					<h4>by TLÜ</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<h6>Adding a map filtration interface to any .csv data</h6>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<a class="tutorials-link" href="Frontend\map.html" role="button" target="_blank">Streaming service
+						example</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="mediapal">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						What is MediaPal?
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+					<p>MediaPal is a plug-in that allows any Excel or Google Sheets data to be interactively portrayed
+						on a map. For the main example, we have used a <a
+							href="https://docs.google.com/spreadsheets/d/190HK7AykvLtgLnnNc2ycQhVk0kInp--603vuiY20zv8/edit?usp=sharing"
+							target="_blank">Google Sheets</a> database, thats been imported as .csv to our plugin. </p>
+					<p>Due to the current overwhelmingly diverse streaming market, we have created a map in which any
+						user can search for their specified country, streaming category or even movie genre and find the
+						informaton necessary. And all this information directly from a simple Google Sheets file!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="examples">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						Other examples
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<a class="tutorials-link" href="#" role="button">Coming soon!</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="features">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						Features
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="feature-container col-xs-12">
+					<div class="row">
+						<div class="feature col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0 text-center">
+
+							<h4>Create Maps!</h4>
+							<p>Create beautiful and customizable map interactive interfaces via Mapbox</p>
+						</div>
+
+						<div class="feature col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 text-center">
+
+							<h4>Store the location!</h4>
+							<p>Pinpoint an exact location on a map and store the value from your database to portray
+								whatever you need in any way you need</p>
+						</div>
+
+						<div class="feature col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-0 text-center">
+							<h4>Dont worry about security!</h4>
+							<p>The plug-in will only have to connect to a FireBase database via a simple .html file in
+								your desktop folder</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<br>
+						<p>The MediaPal plug-in consists of both Front-End and Back-End sections. In Front-end side,
+							there is a Platform Manager which allows the user to load any Excel or Sheets file to the
+							server. In specific, the file will be reformatted as JSON and then sent to the server. </p>
+						<p>Secondly, the plugin allows the developer to integrate an extra website to their own page via
+							the Mapbox API and thus search the data loaded by Platform Manager</p>
+						<p>In the Back-End side, there needs to be done a Firebase Database Setup where the JSON
+							formatted file is sent and received by Firebase Functions Endpoints, which creates the
+							functionality necessary.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
+
+
+	</section>
+
+	<section id="documentation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-header">
+						Documentation
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-sub-header">
+						How to setup the MediaPal plugin for your own data
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<p>In order to setup the MediaPal plugin, you will first need to download the folder which contains all
+					necessary files <a href="https://www.upload.ee/files/11894771/MEDIAPAL.rar.html"
+						target="_blank">here</a>. </p> <!-- selles failis on prg ka streaming service näide sees-->
+				<p>Then you'll need to setup a Firebase project and a <a
+						href="https://firebase.google.com/docs/firestore" target="_blank">Firebase Database</a> and
+					finally <a href="https://firebase.google.com/docs/functions" target="_blank">Firebase Functions</a>.
+					Once that is done, create a new database collection called "database" and create an empty file
+					called <strong>"EXMtb47HNp7j3hTdhhOF"</strong>. Once you've done that, you can load Firebase
+					functions from your index.js file by can replacing the index.js Firebase has given you.</p>
+				<p>Now that all the Firebase stuff is created, you can add the plugin to your created website. Create a
+					<a href="https://blog.mapbox.com/quickstart-guide-to-mapbox-javascript-api-4b376c68dd46"
+						target="_blank">Mapbox account</a>. Use the plugin folders style.css and mediapal.js files in
+					your .html file. </p>
+				<br>
+				<p>Lastly, to start the plugin, you will need to setup this piece of code </p>
+				<p></p>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<!-- HTML generated using hilite.me -->
+					<div
+						style="background: #ffffff; overflow:auto;width:auto;;border-width:.1em .1em .1em .8em;padding:.2em .6em;">
+						<pre style="margin: 0; line-height: 125%">mediapal.open(<span style="color: #007020">document</span>.getElementById(<span style="background-color: #fff0f0">&quot;created-element-ID&quot;</span>), 
+{
+    URL<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;serveri GET endpoint URL&quot;</span>,
+    MAPBOX_TOKEN<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&quot;MAPBOX Token&quot;</span>,
+    MAPBOX_SETTINGS<span style="color: #333333">:</span> {
+        container<span style="color: #333333">:</span>&#39;map&#39;</span>,
+        style<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;Mapbox Style Token&#39;</span>,
+        center<span style="color: #333333">:</span> [<span style="color: #333333">-</span><span style="color: #6600EE; font-weight: bold">100.04</span>, <span style="color: #6600EE; font-weight: bold">38.907</span>],
+        zoom<span style="color: #333333">:</span> <span style="color: #0000DD; font-weight: bold">3</span>
+    },
+    COUNTRY_COLOR<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;rgba(23, 236, 105, 0.4)&#39;</span>,
+    COUNTRY_OUTLINE_COLOR<span style="color: #333333">:</span> <span style="background-color: #fff0f0">&#39;rgba(0, 4, 2, 1)&#39;</span>
+});
+</pre>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<p></p>
+				<p>You will need to change all of the pink highlighted attributes</p>
+				<ul>
+					<li>URL - the Servers endpoint URL where the .csv file is acquired in JSON format</li>
+					<li>MAPBOX_TOKEN - Mapbox token from Account Settings</li>
+					<li>MAPBOX_SETTINGS - Mapbox map initialisation settings<a href="https://docs.mapbox.com/mapbox-gl-js/api/" target="_blank"> from here</a></li>
+					<li>COUNTRY_COLOR - Country colors in RGBA format, that you would like to use</li>
+					<li>COUNTRY_OUTLINE_COLOR - Country outline colors in RGBA format, that you would like to use</li>
+				</ul>
+				<br>
+				<p><strong>Then you're all set up! Have fun!</strong></p>
+			</div>
+
+		</div>
+	</section>
+	<footer>
+			<div>
+				<h6>
+					&copy; All rights reserved TLÜ 2020
+				</h6>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</body>
+
+</html>
