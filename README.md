@@ -14,6 +14,7 @@ Projekti raames loodi kaardirakenduse plugin mille alusel saab kasutada iga Exce
 * Mapbox
 
 #### Installeerimise juhend: 
+##### Inglise keeles juhendid on rakenduse veebilehel : https://redcup.app/
 ##### Backend
 1. Seada üles Firebase keskkonda projekt
 2. Seada üles Firebase keskkonda andmebaas 
