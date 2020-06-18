@@ -9,6 +9,10 @@ Projekti raames loodi kaardirakenduse plugin mille alusel saab kasutada iga Exce
 * Karl Palm
 
 ### Kasutatud Tarkvara:
+* Javascript, NodeJS, CSS ja HTML
+* Firebase
+* Mapbox
+
 Installeerimis juhend: 
 ##### Backend
 1. Seada üles Firebase keskkonda projekt
