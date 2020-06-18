@@ -32,7 +32,22 @@ Projekti raames loodi kaardirakenduse plugin mille alusel saab kasutada iga Exce
 4. Kasutada plugini style.css ja mediapal.js faili veebilehe html dokumendis
 5. Luua veebilehele container element kuhu plugini sisu kuvatakse
 
-Kasutada järgmist koodi, et plugin käima panna. Kõik allolevad väljad peavad olema täidetud ning highlightitud on need väljad mida saab kasutaja ise muuta selleks, et kaardi väljanägemist manipuleerida
+Kasutada järgmist koodi, et plugin käima panna. Kõik allolevad väljad peavad olema täidetud ning attribuudid on need väljad mida saab kasutaja ise muuta selleks, et kaardi väljanägemist manipuleerida
+```sh
+mediapal.open(document.getElementById("loodud-elemendi-ID"), 
+{
+    URL: "serveri GET endpoint URL",
+    MAPBOX_TOKEN: "MAPBOX Token",
+    MAPBOX_SETTINGS: {
+        container: 'map',
+        style: 'Mapbox Style Token',
+        center: [-100.04, 38.907],
+        zoom: 3
+    },
+    COUNTRY_COLOR: 'rgba(23, 236, 105, 0.4)',
+    COUNTRY_OUTLINE_COLOR: 'rgba(0, 4, 2, 1)'
+});
+```
 
 ## Pildid rakendusest
 ### Veebileht
