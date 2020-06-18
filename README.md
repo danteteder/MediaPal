@@ -13,7 +13,7 @@ Projekti raames loodi kaardirakenduse plugin mille alusel saab kasutada iga Exce
 * Firebase
 * Mapbox
 
-Installeerimis juhend: 
+#### Installeerimise juhend: 
 ##### Backend
 1. Seada üles Firebase keskkonda projekt
 2. Seada üles Firebase keskkonda andmebaas 
